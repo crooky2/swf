@@ -1,0 +1,51 @@
+.login-content-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.login-register-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.login-form-box, .register-form-box {
+    text-align: center;
+}
+
+.section-login-register {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.format-login-register {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"], input[type="password"], input[type="submit"] {
+    color: #fff;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #121212;
+    min-width: 300px;
+    min-height: 25px;
+    background-color: rgba(153, 105, 27, 0.05);
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(153, 105, 27, 0.1);
+    cursor: pointer;
+}
+
+.section-profile-actions {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
